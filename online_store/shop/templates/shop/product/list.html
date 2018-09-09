@@ -1,0 +1,19 @@
+{% extends 'shop/base.html' %}
+
+{% block header %}
+    <h1>{% block title %}Products{% endblock %}</h1>
+{% endblock %}
+
+
+
+{% block content%}
+    <h1>Наши популярные товары</h1>
+        {% for product in products%}
+        <a>
+            <img src="{{ product.image.url }}" alt="">
+        </a>
+        <h3>{{ product.title }}</h3>
+        <p>{{ product.description }}</p>
+        <p><a href="{{ product.id }}">Посмотреть товар</a></p>
+        {% endfor %}
+{% endblock %}
