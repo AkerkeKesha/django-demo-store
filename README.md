@@ -15,7 +15,8 @@ It is best to use the python `virtualenv` tool to build locally:
 $ virtualenv --python=$(which python3) venv
 $ source venv/bin/activate
 $ pip3 install -r requirements.txt
-$ DEVELOPMENT=1 python3 manage.py runserver
+$ cd online_store/
+$ python3 manage.py runserver
 ```
 
 Then visit `http://localhost:8000` to view the app.
