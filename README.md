@@ -1,4 +1,4 @@
-#django-demo-store
+##django-demo-store
 
 Otus, Web-Dev course, Django app - demo of online store.
 The main page lists all the products. For the purpose of this hw 
@@ -19,5 +19,5 @@ $ cd online_store/
 $ python3 manage.py runserver
 ```
 
-Then visit `http://localhost:8000` to view the app.
+Then visit `http://127.0.0.1:8000/` to view the app.
 
