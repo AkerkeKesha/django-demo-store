@@ -1,4 +1,4 @@
-{% extends 'shop/base.html' %}
+{% extends 'base.html' %}
 
 {% block header %}
     <h1>{% block title %}Product{% endblock %} </h1>
@@ -12,5 +12,6 @@
         <h3>{{ product.title }}</h3>
         <p>{{ product.description }}</p>
         <p>Стоимость товара: {{ product.price }}</p>
+       <!--- <a href="{% url %}">Back</a> -->
 
 {% endblock %}
