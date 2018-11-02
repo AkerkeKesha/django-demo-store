@@ -6,5 +6,6 @@ __pycache__
 .idea/
 tutorial/
 db.sqlite3
-*/tests.py
+online_store/shop/tests.py
 products/*
+online_store/online_store/secret.py

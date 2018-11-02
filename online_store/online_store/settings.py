@@ -1,8 +1,7 @@
 import os
+from .secret import *
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
-SECRET_KEY = 'agfy=n&lb@@f*=1c^#p#8^k22u02x=zjd#&mc^#r_-_kz8rjyd'
 
 DEBUG = True
 
