@@ -1,4 +1,4 @@
-#Django Demo Store
+##Django Demo Store
 
 
 Otus, Web-Dev course, Django app - demo of online store.
@@ -31,9 +31,13 @@ Then visit `http://127.0.0.1:8000/admin` to see admin panel.
 Here's a screenshot of the store:
 Home Page
 
+![Alt text](/django-demo-store/readme_pics/product_list.png?raw=true "List of Products")
+
 ![narrow_monitor](https://raw.githubusercontent.com/AkerkeKesha/django-demo-store/readme_pics/product_list.png "List of Products")
 
 Product page
+
+![Alt text](/django-demo-store/readme_pics/product_detail.png?raw=true "Product Detail")
 
 ![narrow_monitor](https://raw.githubusercontent.com/AkerkeKesha/django-demo-store/readme_pics/product_detail.png "Product Detail")
    
