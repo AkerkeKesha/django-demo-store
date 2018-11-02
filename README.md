@@ -1,6 +1,5 @@
-====================
-Django Demo Store
-====================
+#Django Demo Store
+
 
 Otus, Web-Dev course, Django app - demo of online store.
 The main page lists all the products. For the purpose of this hw 
@@ -30,18 +29,14 @@ Then visit `http://127.0.0.1:8000/` to view the app.
 Then visit `http://127.0.0.1:8000/admin` to see admin panel. 
 
 Here's a screenshot of the store:
+Home Page
 
-Homepage
+![narrow_monitor](https://raw.githubusercontent.com/AkerkeKesha/django-demo-store/readme_pics/product_list.png "List of Products")
 
-.. image:: https://github.com/AkerkeKesha/django-demo-store/blob/master/online_store/readme_pics/product_list.png
-      
-   :width: 908
-   :height: 557
+Product page
+
+![narrow_monitor](https://raw.githubusercontent.com/AkerkeKesha/django-demo-store/readme_pics/product_detail.png "Product Detail")
    
-Product Page
 
-.. image::https://github.com/AkerkeKesha/django-demo-store/blob/master/online_store/readme_pics/product_detail.png
-   :width: 908
-   :height: 557
 
    
