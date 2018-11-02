@@ -6,12 +6,12 @@
 
 {% block content%}
     <h1>Наши популярные товары</h1>
-        {% for product in products%}
+        {% for product in products_list %}
         <a>
             <img src="{{ product.image.url }}" width="225" height="225" alt="">
         </a>
         <h3>{{ product.title }}</h3>
         <p>{{ product.description }}</p>
-        <p><a href="{% url 'shop:product_detail' product.id %}">Посмотреть товар</a></p>
+        <p><a href="{% url 'shop:product_detail' product.pk %}">Посмотреть товар</a></p>
         {% endfor %}
 {% endblock %}
