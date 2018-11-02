@@ -1,4 +1,4 @@
-##django-demo-store
+## Django-demo-store
 
 Otus, Web-Dev course, Django app - demo of online store.
 The main page lists all the products. For the purpose of this hw 
