@@ -33,13 +33,14 @@ Here's a screenshot of the store:
 
 Homepage
 
-.. image::
+.. image:: https://github.com/AkerkeKesha/django-demo-store/blob/master/online_store/readme_pics/product_list.png
+      
    :width: 908
    :height: 557
    
 Product Page
 
-.. image::
+.. image::https://github.com/AkerkeKesha/django-demo-store/blob/master/online_store/readme_pics/product_detail.png
    :width: 908
    :height: 557
 
