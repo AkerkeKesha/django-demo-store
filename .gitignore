@@ -7,5 +7,5 @@ __pycache__
 tutorial/
 db.sqlite3
 online_store/shop/tests.py
-products/*
+online_store/products/*
 online_store/online_store/secret.py
