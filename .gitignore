@@ -8,4 +8,4 @@ tutorial/
 db.sqlite3
 online_store/shop/tests.py
 online_store/products/*
-online_store/online_store/secret.py
+online_store/core/secret.py
