@@ -83,3 +83,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_URL = '/products/'
 MEDIA_ROOT = os.path.join(BASE_DIR, '')
+SESSION_COOKIE_SECURE = True
